@@ -1,0 +1,199 @@
+* {
+	box-sizing: border-box;
+	border: 0;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Ropa Sans", sans-serif;
+}
+
+header {
+	padding: 15px 45px;
+	box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+	z-index: 1;
+	background-color: #ffffff;
+}
+
+.header {
+	max-width: 1170px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo > h1 {
+	font-size: 40px;
+	color: #777777;
+	font-weight: normal;
+	margin-right: 2px;
+}
+
+.logo > h2 {
+	font-size: 15px;
+	line-height: 15px;
+	color: #aaaaaa;
+	font-weight: normal;
+}
+
+.header > img {
+	width: 30px;
+}
+
+main {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.banner {
+	margin: 30px 40px;
+}
+
+.banner > img {
+	width: 100%;
+}
+
+.destaques {
+	margin: 40px 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.destaques > article {
+	max-width: 42%;
+	background-color: #eeeeee;
+}
+
+.destaques > article > img {
+	width: 100%;
+}
+
+.valores {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 25px;
+	align-items: center;
+}
+
+.preco {
+	font-size: 35px;
+	color: #888888;
+	font-weight: 400;
+}
+
+.new {
+	font-size: 30px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #51d275;
+	border-radius: 19px;
+	padding: 2px 20px;
+	font-weight: 400;
+}
+
+.sale {
+	font-size: 30px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #dc9730;
+	border-radius: 19px;
+	padding: 2px 20px;
+	font-weight: 400;
+}
+
+article > p {
+	font-size: 20px;
+	line-height: 21px;
+	text-align: justify;
+	color: #555555;
+	padding: 3px 25px 20px 25px;
+}
+
+.style {
+	margin: 40px 40px;
+}
+
+.style-title {
+	font-size: 35px;
+	color: #888888;
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 30px;
+	margin-top: 60px;
+}
+
+.style > div {
+	margin-bottom: 30px;
+}
+
+.style-type-text {
+	font-size: 35px;
+	color: #888888;
+	text-align: center;
+	color: #ffffff;
+	padding: 50px;
+	font-weight: 400;
+}
+
+.style-industrial {
+	background-image: url("../images/industrial.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.style-modern {
+	background-image: url("../images/modern.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.style-modern {
+	background-image: url("../images/modern.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.style-classic {
+	background-image: url("../images/classic.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+footer {
+	background-color: #333333;
+	margin-top: 50px;
+}
+
+.footer {
+	max-width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 55px 35px;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.map {
+	width: 42%;
+}
+
+.infos-footer > p {
+	margin: 10px 20px 20px 0;
+}
+
+.social-media {
+	margin: 40px 0 15px 0;
+}
+
+.infos-footer > div > img {
+	margin-right: 30px;
+}
